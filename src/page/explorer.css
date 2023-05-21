@@ -1,0 +1,155 @@
+.explorer-search-field {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    border: 1px solid black !important;
+    border-radius: 10px !important;
+    padding: 8px !important;
+}
+
+.side-bar-dots {
+    font-size: 34px;
+    padding: 0;
+    margin-bottom: 30px;
+    line-height: 0;
+    text-align: center;
+    color: #323130;
+}
+
+.side-bar-filter-container {
+    margin: 40px 0;
+}
+
+.side-bar-type-heading-container {
+    display: flex;
+}
+
+.side-bar-type-heading-sideline {
+    margin: auto;
+    width: 30%;
+    height: 1px;
+    background-color: #323130;
+}
+
+.side-bar-type-heading {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    color: #323130;
+}
+
+.side-bar-filter-type-container {
+    padding: 20px 0;
+}
+
+.side-bar-filter-type-container > p {
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    color: #323130;
+}
+
+.explorer-card {
+    /*padding: 20px;*/
+    border-radius: 10px;
+    width: 280px;
+    background-color: #070707;
+    background-image: radial-gradient(
+            #7c7c7c,
+            #070707
+    );
+}
+
+.explorer-card-inner-img {
+    position: relative;
+    display: flex;
+}
+
+.explorer-card-img {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.explorer-card-beware-text {
+    position: absolute;
+    z-index: 1;
+    bottom: 110px;
+    right: -55px;
+    color: #F0F0F0;
+    font-size: 5px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(270deg);
+}
+
+.explorer-card-dots {
+    position: absolute;
+    z-index: 1;
+    bottom: -10px;
+    left: -10px;
+    color: #F0F0F0;
+    font-size: 28px;
+    font-weight: 700;
+    transform: rotate(270deg);
+}
+
+.explorer-card-body {
+    padding: 15px;
+    background-color: #F6F6F6;
+    border-radius: 0 0 10px 10px;
+}
+
+.explorer-card-name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #212121;
+    text-align: center;
+}
+
+.explorer-card-attr-div-container {
+    display: flex;
+}
+
+.explorer-card-attr-div {
+    margin: auto;
+    width: 40%;
+}
+
+.explorer-card-attr-heading {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #212121;
+}
+
+.separator {
+    height: 1px;
+    width: 100%;
+    background-color: #212121;
+}
+
+.explorer-card-attr {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #212121;
+}
+
+.explorer-card-copyright {
+    font-size: 7px;
+    font-weight: 400;
+    color: #212121;
+    padding: 0;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
